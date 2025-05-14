@@ -11,9 +11,13 @@ install che=rome extension ie,
 create Folder structure.          
                       
                       
+
 react appl →      action  →      reducer
-                                    
-                     store
+   ↑                                 ↓
+   ←←←←←←←←←←←←←←←←←←←← store ←←←←←←←←←←
+
+
+
 Step1: install required dependencies
        npm i @redux-devtools/extension redux react-redux
 
@@ -26,4 +30,7 @@ Step3: create folder structure
 
 action is a function reducer is a pure function.
 
-
+Action:
+   It is a function.
+   return actionable object.
+   
